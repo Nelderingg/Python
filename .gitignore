@@ -27,6 +27,7 @@ MANIFEST
 
 # Virtual environment
 /Users/nathaneldering/Desktop/my_projects/Python/venv/
+venv/** 
 ENV/
 env/
 env.bak/
