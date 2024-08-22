@@ -3,10 +3,10 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.model_selection import train_test_split
 from collections import Counter
 from sklearn.compose import ColumnTransformer
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, InputLayer
+from tensorflow.keras.models import Sequential #type: ignore
+from tensorflow.keras.layers import Dense, InputLayer #type:ignore
 from sklearn.metrics import classification_report
-from tensorflow.keras.utils import to_categorical
+from tensorflow.keras.utils import to_categorical #type:ignore
 import numpy as np
 
 #import csv and create data frame, get rid of categorical death_event column
