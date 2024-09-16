@@ -48,4 +48,4 @@ model.fit(features_train, labels_train, epochs=40, batch_size=1, verbose=1)
 #evaluate the model on the test data
 val_mse, val_mae = model.evaluate(features_test, labels_test, verbose=0)
  
-print("MAE: ", val_mae)
+print("MAE: \n", val_mae)
